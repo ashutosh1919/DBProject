@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:id="@+id/parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/team_size_tv"
+        android:text="Team Size"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/event_name_tv"
+        android:layout_below="@+id/team_size_tv"
+        android:text="Event Name"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/date_tv"
+        android:layout_below="@+id/event_name_tv"
+        android:text="Date"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/event_id_tv"
+        android:layout_below="@+id/date_tv"
+        android:text="Event_ID"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/venue_tv"
+        android:layout_below="@+id/event_id_tv"
+        android:text="Venue"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/organizer_tv"
+        android:layout_below="@+id/venue_tv"
+        android:text="Organizer"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/level_tv"
+        android:layout_below="@+id/organizer_tv"
+        android:text="Level"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/award_tv"
+        android:layout_below="@+id/level_tv"
+        android:text="Award_Type"
+        android:textSize="16sp"
+        android:textColor="#00897B"/>
+
+</RelativeLayout>

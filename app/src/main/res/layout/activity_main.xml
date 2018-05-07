@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/first_query_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Display the first name of the students who have won medals in sports."
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_rectangle"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/second_query_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/first_query_tv"
+        android:layout_centerHorizontal="true"
+        android:text="Display the details of the events that are conducted in odd semesters."
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_rectangle"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/third_query_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/second_query_tv"
+        android:layout_centerHorizontal="true"
+        android:text="Display the organizers that have organized only cultural events."
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_rectangle"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/fourth_query_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/third_query_tv"
+        android:layout_centerHorizontal="true"
+        android:text="Display the roll no and full name of the students who have participated at least in one academic,cultural and sports event."
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_rectangle"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:elevation="4dp"/>
+
+</RelativeLayout>
